@@ -1,8 +1,5 @@
 mkdir zarakinyu
 cd zarakinyu
-git clone https://gitlab.com/syntaxsculp/android_dump_xiaomi_warm-hyperos1 dump
-mkdir rom
-cd rom
 repo init -u https://github.com/LineageOS/android.git -b lineage-23.0 --git-lfs
 repo sync
 rm -rf vendor/xiaomi/warm

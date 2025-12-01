@@ -17,5 +17,5 @@ git clone https://github.com/realzarakinyu/android_device_xiaomi_warm-kernel dev
 git clone https://github.com/realzarakinyu/android_hardware_qcom-caf_common -b lineage-23.0 hardware/qcom-caf/common
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-23.0 hardware/xiaomi
 source build/envsetup.sh
-lunch lineage_warm-bp3a-userdebug
+lunch lineage_warm-bp2a-userdebug
 mka bacon

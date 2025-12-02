@@ -15,8 +15,8 @@ rm -rf hardware/qcom-caf/common
 
 # TREES
 git clone https://github.com/xiaomi-warm-devs/android_device_xiaomi_warm -b lineage-23.0 device/xiaomi/warm
-git clone https://github.com/xiaomi-warm-devs/android_device_xiaomi_sm4635-common -b vendor_ramdisk device/xiaomi/sm4635-common
 git clone https://github.com/xiaomi-warm-devs/android_vendor_xiaomi_warm -b lineage-23.0 vendor/xiaomi/warm
+git clone https://github.com/xiaomi-warm-devs/android_device_xiaomi_sm4635-common -b lineage-23.0 device/xiaomi/sm4635-common
 git clone https://github.com/xiaomi-warm-devs/android_vendor_xiaomi_sm4635-common -b lineage-23.0 vendor/xiaomi/sm4635-common
 git clone https://github.com/xiaomi-warm-devs/android_device_xiaomi_warm-kernel -b lineage-23.0 device/xiaomi/warm-kernel
 git clone https://github.com/xiaomi-warm-devs/android_hardware_qcom-caf_common -b lineage-23.0 hardware/qcom-caf/common

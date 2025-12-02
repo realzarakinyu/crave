@@ -12,6 +12,7 @@ rm -rf device/xiaomi/warm
 rm -rf device/xiaomi/warm-kernel
 rm -rf hardware/xiaomi
 rm -rf hardware/qcom-caf/common
+rm -rf build/soong/fsgen
 
 # TREES
 git clone https://github.com/xiaomi-warm-devs/android_device_xiaomi_warm -b lineage-23.0 device/xiaomi/warm
